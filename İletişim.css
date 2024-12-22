@@ -24,9 +24,11 @@
 .navbar ul li{
     list-style-type: none;
     display: inline-block;
-    margin: 0 25px;
+    margin: 0.5%;
 }
 .navbar ul li a{
+    padding: 20px;
+    font-size: 150%;
     text-decoration: none;
     color: white;
 }
@@ -86,7 +88,7 @@
 .contact-form {
     background-color:white;
     padding: 20px;
-    margin: 150px auto;
+    margin: 130px auto;
     width: 80%;
     max-width: 600px;
     border-radius: 8px;

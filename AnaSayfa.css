@@ -14,7 +14,7 @@
 .navbar{
     width: 100%;
     margin: auto;
-    padding: 32px 0;
+    padding: 32px 0px;
     align-items: center;
     background-color:rgba(0, 0, 0, 0.666)
 }
@@ -24,11 +24,16 @@
 .navbar ul li{
     list-style-type: none;
     display: inline-block;
-    margin: 0 25px;
+    margin: 0.5%;
 }
 .navbar ul li a{
+    padding: 20px;
+    font-size: 150%;
     text-decoration: none;
     color: white;
+}
+nav ul li.active{
+    color: red;
 }
 .navbar ul li a:hover{
     color: yellow;

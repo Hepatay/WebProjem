@@ -24,9 +24,11 @@
 .navbar ul li{
     list-style-type: none;
     display: inline-block;
-    margin: 0 25px;
+    margin: 0.5%;
 }
 .navbar ul li a{
+    padding: 20px;
+    font-size: 150%;
     text-decoration: none;
     color: white;
 }
@@ -57,4 +59,11 @@
     text-align: center;
     color: white;
     margin-top: 10%;
+}
+p{
+    font-size: 22px;
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
 }
